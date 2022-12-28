@@ -43,10 +43,9 @@
     --font-semi-bold: 600;
 }
 
-
-
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 nav{
     display: flex;
@@ -88,7 +87,7 @@ nav ul li a:hover{
     margin-bottom: 16px;
 }
 
-.navbar .background{
+.header .background{
     display: flex;
     flex-direction: row;
     align-items: center;
