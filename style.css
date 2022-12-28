@@ -4,6 +4,50 @@
     box-sizing: border-box;
     font-family: inter;
 }
+
+:root {
+    /** ==== Colors ===== */
+    /** Ubah Warna */
+    --hue-color: 250;
+    /*? Purple 250 - Green 142 - Blue 230 - Pink 340 */
+
+    /** HSL Kumpulan Kode Warna */
+    /* ? HSL adalah hsl(Hue, Saturation, Lightness) */
+
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #FFF;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    /** ==== Font and Typhography ===== */
+    /*! .5 rem = 8px, 1 rem = 16 px, 1.5 rem = 24 px, dst */
+
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /** ==== Font Weight ===== */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+
+
+
+
+
 nav{
     display: flex;
     align-items: center;
