@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -43,29 +43,29 @@
     --font-semi-bold: 600;
 }
 
-.container{
+.container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
-.grid{
+.grid {
     display: grid;
     gap: 1.5rem;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -125,7 +125,7 @@ nav ul li a:hover{
     border-radius: 26px;
     font-weight: bold;
 } */
-.home{
+.home {
     position: absolute;
     width: 357px;
     height: 105px;
