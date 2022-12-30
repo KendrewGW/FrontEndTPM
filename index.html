@@ -11,7 +11,7 @@
     <!-- ================ Fonts ================ -->
     <link href="https://fonts.googleapis.com/css?family=Inter"rel="stylesheet"/>
     
-    <!-- ================ FontAwsome ================ -->
+    <!-- ================ FontAwesome ================ -->
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.2.1/css/all.css">
 
     <title>Hackathon</title>
@@ -27,39 +27,45 @@
             <ul class="nav__list grid">
               <li class="nav__item">
                 <a href="#home" class="nav__link">
-                  <i class="fa-solid fa-house"></i> Home
+                  <i class="fa-solid fa-house nav__icon"></i> Home
                 </a>
               </li>
 
               <li class="nav__item">
                 <a href="#about" class="nav__link">
-                  <i class="fas fa-user"></i> About
+                  <i class="fas fa-user nav__icon"></i> About
                 </a>
               </li>
 
               <li class="nav__item">
                 <a href="#properties" class="nav__link">
-                  <i class="fa-solid fa-key"></i> Properties
+                  <i class="fa-solid fa-key nav__icon"></i> Properties
                 </a>
               </li>
 
               <li class="nav__item">
                 <a href="#community" class="nav__link">
-                  <i class="fa-solid fa-comment"></i> Community
+                  <i class="fa-solid fa-comment nav__icon"></i> Community
                 </a>
               </li>
               
               <li class="nav__item">
                 <a href="#aboutus" class="nav__link">
-                  <i class="fa-solid fa-id-badge"></i> About Us
+                  <i class="fa-solid fa-id-badge nav__icon"></i> About Us
                 </a>
               </li>
             </ul>
+              <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
           </div>
-        </nav>
-      </header>
 
-      
+          <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-rectangle-list"></i>
+            </div>
+          </div>
+
+        </nav>
+      </header>      
 
     <!-- ================ Header ================ -->
     <!-- <div class="header" id="header">
@@ -79,8 +85,11 @@
         </ul>
       </nav>
     </div> -->
-    
-    <div class="home">Hackathon</div>
+<!--     
+    <div class="home">Hackathon</div> -->
 
+
+    <!-- ================ Main JS ================ -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
