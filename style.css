@@ -16,11 +16,11 @@ nav{
     position: absolute;
     width: 1440px;
     height: 126px;
-    background-color: #254747;
+    background-color: #FAF3DD;
 }
 
 .logo{
-    color: #EFF1EB;
+    color: #4A7C59;
     width: 138px;
     height: 35px;
     font-family: 'Inter';
@@ -36,7 +36,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #4A7C59;
     font-weight: bold;
     text-decoration: none;
 }
@@ -55,12 +55,12 @@ nav ul li a:hover{
 }
 
 .register{
-    color: white;
+    color: #4A7C59;
     padding: 13px 27px;
     gap: 28px;
     width: 120px;
     height: 45px;
-    background: #1E1E1E;
+    background: #C8D5B9;
     border-radius: 26px;
     font-weight: bold;
 }
