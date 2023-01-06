@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: inter;
+    font-family: 'inter', 'Helvetica;'
 }
 html{
     scroll-behavior: smooth;
@@ -23,7 +25,7 @@ nav{
     color: #4A7C59;
     width: 138px;
     height: 35px;
-    font-family: 'Inter';
+    font-family: 'inter';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
