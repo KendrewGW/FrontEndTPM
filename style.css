@@ -57,6 +57,34 @@ nav ul li a:hover{
 }
 
 .register{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 27px;
+gap: 28px;
+
+width: 120px;
+height: 45px;
+
+background: #C8D5B9;
+border-radius: 26px;
+border: none;
+}
+
+.register{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #4A7C59;
+}
+
+
+/* 
+.register{
     color: #4A7C59;
     padding: 13px 27px;
     gap: 28px;
@@ -65,7 +93,9 @@ nav ul li a:hover{
     background: #C8D5B9;
     border-radius: 26px;
     font-weight: bold;
-}
+   border: none;
+} */
+
 .home{
     position: absolute;
     width: 357px;
