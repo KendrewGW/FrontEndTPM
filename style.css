@@ -1,48 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: inter;
+    font-family: 'inter', 'Helvetica;'
 }
-
-:root {
-    /** ==== Colors ===== */
-    /** Ubah Warna */
-    --hue-color: 250;
-    /*? Purple 250 - Green 142 - Blue 230 - Pink 340 */
-
-    /** HSL Kumpulan Kode Warna */
-    /* ? HSL adalah hsl(Hue, Saturation, Lightness) */
-
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #FFF;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-
-    /** ==== Font and Typhography ===== */
-    /*! .5 rem = 8px, 1 rem = 16 px, 1.5 rem = 24 px, dst */
-
-    --big-font-size: 2rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-    --smaller-font-size: .75rem;
-
-    /** ==== Font Weight ===== */
-    --font-medium: 500;
-    --font-semi-bold: 600;
-}
-
 html{
     scroll-behavior: smooth;
 }
@@ -55,14 +18,14 @@ nav{
     position: absolute;
     width: 1440px;
     height: 126px;
-    background-color: #254747;
+    background-color: #FAF3DD;
 }
 
 .logo{
-    color: #EFF1EB;
+    color: #4A7C59;
     width: 138px;
     height: 35px;
-    font-family: 'Inter';
+    font-family: 'inter';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -75,7 +38,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #4A7C59;
     font-weight: bold;
     text-decoration: none;
 }
@@ -94,15 +57,45 @@ nav ul li a:hover{
 }
 
 .register{
-    color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 27px;
+gap: 28px;
+
+width: 120px;
+height: 45px;
+
+background: #C8D5B9;
+border-radius: 26px;
+border: none;
+}
+
+.register{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #4A7C59;
+}
+
+
+/* 
+.register{
+    color: #4A7C59;
     padding: 13px 27px;
     gap: 28px;
     width: 120px;
     height: 45px;
-    background: #1E1E1E;
+    background: #C8D5B9;
     border-radius: 26px;
     font-weight: bold;
-}
+   border: none;
+} */
+
 .home{
     position: absolute;
     width: 357px;
