@@ -118,15 +118,6 @@ nav ul li a:hover{
     flex-grow: 0;
 }
 
-.home{
-    position: absolute;
-    width: 357px;
-    height: 105px;
-    left: 541px;
-    top: 189px;
-    font-family: 'Inter';
-    font-size: 80px;
-    line-height: 105px;
-    align-items: center;
-    font-weight: bold;
+.container{
+    padding: 3.25rem;
 }
