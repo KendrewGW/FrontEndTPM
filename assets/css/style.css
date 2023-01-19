@@ -33,13 +33,27 @@ nav{
     background: #D4DDD4;
 }
 
-h2{
+h1{
     font-family: 'DM Sans';
     text-align: center;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
 }
 
 /* For Layout Purposes */
@@ -158,6 +172,8 @@ nav ul li a:hover{
     flex-grow: 0;
 }
 
+/*================ Home ================ */
+
 /* .home{
     position: absolute;
     width: 357px;
@@ -170,3 +186,7 @@ nav ul li a:hover{
     align-items: center;
     font-weight: bold;
 } */
+
+/*================ Tema Event ================ */
+
+/*================ Juara ================ */
