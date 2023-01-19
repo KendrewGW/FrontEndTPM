@@ -9,6 +9,12 @@
 
 
 /* === ADJUST === */
+:root{
+    --green: #D4DDD4;
+    --white: #FFFFFF;
+    --orange: #D66F4C;
+}
+
 *{
     padding: 0;
     margin: 0;
