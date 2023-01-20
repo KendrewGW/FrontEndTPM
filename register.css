@@ -1,0 +1,103 @@
+/* INTER FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* DM SANS FONT */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+/* === ADJUST === */
+:root{
+    --green: #D4DDD4;
+    --white: #FFFFFF;
+    --orange: #D66F4C;
+    --black: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+#form .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 3rem;
+    justify-content: space-between;
+    background-color: var(--green);
+}
+
+
+#form .container h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86.7657px;
+    line-height: 113px;
+    color: var(--black);
+    margin-bottom: 11px;
+}
+
+#form .container form{
+    background-color: #EAF0F9;
+    border-radius: 20px;
+    padding: 20px 70px 92px 76px;
+}
+
+#form .container form .informasi {
+    margin-bottom: 20px;
+}
+
+#form .container form .informasi h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.7267px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.pad{
+    margin-bottom: 23px;
+}
+
+label{
+    padding-bottom: 8px;
+}
+
+input{
+    width: 500px;
+    left: 0px;
+    top: 34.55%;
+    bottom: 2.73%;
+    background: #F5F5F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 20px 18px;
+}
+
+input[type="file"]{
+    /* display: none; */
+    padding: 0;
+}
+
+input .img{
+    width: 500px;
+    height: 52.32px;
+}
+
+label[for="file"]{
+    color: var(--white);
+    background-color: var(--orange);
+    background: var(--orange);
+    padding: 14.6588px;
+    gap: 7.33px;
+    border-radius: 12px;
+}
+

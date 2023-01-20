@@ -8,37 +8,63 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Register</h1>
-        <div class="form">
+    <div id="form">
+        <div class="container">
+            <h1>Register</h1>
+        
             <form action="">
-                <h2>Informasi Anggota</h2>
-                <label for="">Nama Lengkap</label><br>
-                <input type="text" placeholder="Masukkan Nama Lengkap Anda"><br>
-                <label for="">Email</label><br>
-                <input type="text" placeholder="Masukkan email anda"><br>
-                <label for="">Nomor Handphone</label><br>
-                <input type="text" placeholder="Masukkan nomor handphone anda"><br>
-                <label for="">ID Line</label><br>
-                <input type="text" placeholder="Masukkan ID line anda"><br>
-                <label for="">Github/Gitlab ID</label><br>
-                <input type="text" placeholder="Masukkan Github/Gitlab ID anda"><br>
-                <label for="">Tempat Lahir</label><br>
-                <input type="text" placeholder="Pilih tempat"><br>
-                <label for="">Tanggal Lahir</label><br>
-                <input type="text" placeholder="Pilih tanggal"><br>
+                <div class="pad informasi">
+                    <h2>Informasi Leader</h2>
+                </div>
+                <div class="pad nama_lengkap">
+                    <label for="">Nama Lengkap</label><br>
+                    <input type="text" placeholder="Masukkan Nama Lengkap Anda">
+                </div>
+                <div class="pad email">
+                    <label for="">Email</label><br>
+                    <input type="email" placeholder="Masukkan email anda"><br>
+                </div>
+                <div class="pad nomor_handphone">
+                    <label for="">Nomor Handphone</label><br>
+                    <input type="text" placeholder="Masukkan nomor handphone anda"><br>
+                </div>
+                <div class="pad id_line">
+                    <label for="">ID Line</label><br>
+                    <input type="text" placeholder="Masukkan ID line anda"><br>
+                </div>
+                <div class="pad github">
+                    <label for="">Github/Gitlab ID</label><br>
+                    <input type="text" placeholder="Masukkan Github/Gitlab ID anda"><br>
+                </div>
+                <div class="pad tempat_lahir">
+                    <label for="">Tempat Lahir</label><br>
+                    <input type="text" placeholder="Pilih tempat"><br>
+                </div>
 
+                <div class="pad tanggal_lahir">
+                    <label for="">Tanggal Lahir</label><br>
+                    <input type="text" placeholder="Pilih tanggal"><br>
+                </div>
 
-                <label for="">Upload CV</label><br>
-                <input type="" placeholder="Upload CV anda disini"><br>
-                <label for="">Upload Flazz Card</label><br>
-                <input type="" placeholder="Upload Flazz Card anda disini"><br>
+                <div class="pad cv">
+                    <label for="cv">Upload CV</label><br>
+                    <input type="file" accept="image/*" class="img"><br>
+                    <label for="file">Upload CV anda disini</label>
+                </div>
+                
+                <div class="pad flazz">
+                    <label for="flazz">Upload Flazz Card</label><br>
+                    <input type="file" accept="image/*" class="img"><br>
+                    <label for="file">Upload Flazz Card anda disini</label>
+                </div>
+                
 
-                <div class="form_button">
+                <div class="pad form_button">
                     <button class="back_button">Back</button>
-                    <button class="submit_button">Submit</button>
+                    <button class="submit_button" class="img">Submit</button>
                 </div>
             </form>
+
         </div>
     </div>
 </body>
