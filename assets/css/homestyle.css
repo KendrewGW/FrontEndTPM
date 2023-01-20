@@ -159,6 +159,7 @@ nav ul li a{
     color: var(--black);
 }
 
+
 #square{
     display: flex;
     flex-direction: column;
@@ -168,8 +169,25 @@ nav ul li a{
     height: 545px;
     left: 330px;
     top: 265px;
-    
-
     background: #D4DDD4;
     border-radius: 20px;
+}
+
+.container__event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.home__eclipse{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.home__frame{
+    position: absolute;
+    display: flex;
+    align-items: center;
 }
