@@ -4,29 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="/assets/css/member.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Register</h1>
-        <div class="form">
+    <div id="form">
+        <div class="container">
+            <h1>Register</h1>
+        
             <form action="">
-                <h2>Informasi Group</h2>
-                <label for="">Nama Team</label>
-                <input type="text" class="nama_team" placeholder="Masukkan nama team anda">
-                <label for="">Password</label>
-                <input type="text" class="password" placeholder="Masukkan password anda">
-                <label for="">Confirm Password</label>
-                <input type="text" class="confirm" placeholder="Masukkan password anda">
-                <div class="binusian">
-                    <input type="radio">
-                    <label for="">Binusian</label>
-                    <input type="radio">
-                    <label for="">Non-Binusian</label>
+                <div class="pad informasi">
+                    <h2>Informasi Anggota</h2>
                 </div>
-                <button class="next">Next</button>
+                <div class="pad nama_lengkap">
+                    <label for="">Nama Lengkap</label><br>
+                    <input type="text" placeholder="Masukkan Nama Lengkap Anda">
+                </div>
+                <div class="pad email">
+                    <label for="">Email</label><br>
+                    <input type="email" placeholder="Masukkan email anda"><br>
+                </div>
+                <div class="pad nomor_handphone">
+                    <label for="">Nomor Handphone</label><br>
+                    <input type="text" placeholder="Masukkan nomor handphone anda"><br>
+                </div>
+                <div class="pad id_line">
+                    <label for="">ID Line</label><br>
+                    <input type="text" placeholder="Masukkan ID line anda"><br>
+                </div>
+                <div class="pad github">
+                    <label for="">Github/Gitlab ID</label><br>
+                    <input type="text" placeholder="Masukkan Github/Gitlab ID anda"><br>
+                </div>
+                <div class="pad tempat_lahir">
+                    <label for="">Tempat Lahir</label><br>
+                    <input type="text" placeholder="Pilih tempat"><br>
+                </div>
+
+                <div class="pad tanggal_lahir">
+                    <label for="">Tanggal Lahir</label><br>
+                    <input type="text" placeholder="Pilih tanggal"><br>
+                </div>
+
+                <div class="pad btn cv">
+                    <div class="label-btn">
+                        <label for="">Upload CV</label><br>
+                    </div>
+                    <input type="file" id="actual-btn" accept="image/*" hidden/>
+                    <label for="file">Upload CV disini</label>
+                </div>
+                
+                <div class="pad btn flazz">
+                    <div class="label-btn">
+                        <label for="">Upload Flazz Card</label><br>
+                    </div>
+                    <input type="file" id="actual-btn" accept="image/*" hidden/>
+                    <label for="file">Upload Flazz Card disini</label>
+                </div>
+                
+
+                <div class="pad form_btn">
+                    <button class="btn back">Back</button>
+                    <button class="btn submit">Submit</button>
+                </div>
             </form>
+
         </div>
     </div>
 </body>
