@@ -1,0 +1,46 @@
+/* INTER FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* DM SANS FONT */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+/* === ADJUST === */
+:root{
+    --green: #D4DDD4;
+    --white: #FFFFFF;
+    --orange: #D66F4C;
+    --black: #000000;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container{
+    padding: 0 6.25rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.early{
+    width: 650px;
+    height: 350px;
+    left: 395px;
+    top: 150px;
+
+    background: var(--green);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 3rem;
+    justify-content: space-between;
+}
