@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/assets/css/register.css">
     <title>Document</title>
 </head>
 <body>
@@ -46,22 +46,26 @@
                     <input type="text" placeholder="Pilih tanggal"><br>
                 </div>
 
-                <div class="pad cv">
-                    <label for="cv">Upload CV</label><br>
-                    <input type="file" accept="image/*" class="img"><br>
-                    <label for="file">Upload CV anda disini</label>
+                <div class="pad btn cv">
+                    <div class="label-btn">
+                        <label for="">Upload CV</label><br>
+                    </div>
+                    <input type="file" id="actual-btn" accept="image/*" hidden/>
+                    <label for="file">Upload CV disini</label>
                 </div>
                 
-                <div class="pad flazz">
-                    <label for="flazz">Upload Flazz Card</label><br>
-                    <input type="file" accept="image/*" class="img"><br>
-                    <label for="file">Upload Flazz Card anda disini</label>
+                <div class="pad btn flazz">
+                    <div class="label-btn">
+                        <label for="">Upload Flazz Card</label><br>
+                    </div>
+                    <input type="file" id="actual-btn" accept="image/*" hidden/>
+                    <label for="file">Upload Flazz Card disini</label>
                 </div>
                 
 
-                <div class="pad form_button">
-                    <button class="back_button">Back</button>
-                    <button class="submit_button" class="img">Submit</button>
+                <div class="pad form_btn">
+                    <button class="btn back">Back</button>
+                    <button class="btn submit">Submit</button>
                 </div>
             </form>
 
