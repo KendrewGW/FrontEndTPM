@@ -112,7 +112,8 @@ input{
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
     color: var(--white);
-    border-style: none;
+    border-style: solid;
+    border-color: #D66F4C;
 }
 
 .back{
@@ -121,7 +122,8 @@ input{
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
     color: var(--white);
-    border-style: none;
+    border-style: solid;
+    border-color: #D66F4C;
 }
 
 .form_btn .btn:hover{
