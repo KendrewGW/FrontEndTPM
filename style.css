@@ -74,6 +74,7 @@ nav ul li a{
     font-weight: bold;
     text-decoration: none;
     font-family: 'Inter', 'Sans-serif';
+    justify-content: space-between;
 }
 
 nav ul li a:hover{
