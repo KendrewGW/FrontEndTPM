@@ -34,7 +34,7 @@ html{
 
 /* ===== Layout ===== */
 .section{
-    padding: 100px 0 286px;
+    padding: 100px 0 276px;
 }
 
 .section__title{
@@ -173,7 +173,7 @@ nav ul li a{
     border-radius: 20px;
 }
 
-.container__event{
+.container__video{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,3 +191,113 @@ nav ul li a{
     display: flex;
     align-items: center;
 }
+
+/* ================ Champion Prizes ================ */
+
+
+.container__juara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* ================ Mentor & Jury ================ */
+.mentor__list{
+    /* display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.mentor__list > a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.mentors{
+    background-image: linear-gradient(to right,
+            var(--orange),
+            var(--orange) 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.mentors:before {
+    content: '';
+    background: var(--orange);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.mentors:hover {
+    background-position: 0;
+}
+
+.mentors:hover::before {
+    width: 100%;
+}
+
+.juries{
+    background-image: linear-gradient(to right,
+            var(--orange),
+            var(--orange) 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.juries:before {
+    content: '';
+    background: var(--orange);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.juries:hover {
+    background-position: 0;
+}
+
+.juries:hover::before {
+    width: 100%;
+}
+
+.container__mentors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
