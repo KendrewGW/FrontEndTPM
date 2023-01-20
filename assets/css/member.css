@@ -103,7 +103,7 @@ input{
     gap: 231px;
     margin-top: 54px;
     justify-content: space-between;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .submit{
@@ -112,6 +112,7 @@ input{
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
     color: var(--white);
+    border-style: none;
 }
 
 .back{
@@ -120,10 +121,11 @@ input{
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
     color: var(--white);
+    border-style: none;
 }
 
 .form_btn .btn:hover{
-    transition: 0.3s;
+    transition: 0.1s;
     background: var(--white);
     color: black;
     border-style: solid;
