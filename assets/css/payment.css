@@ -23,24 +23,68 @@
     font-family: 'Poppins';
 }
 
-.container{
+#payment_section .container {
     padding: 0 6.25rem;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: var(--white);
 }
 
 .early{
-    width: 650px;
-    height: 350px;
-    left: 395px;
-    top: 150px;
-
-    background: var(--green);
-    border-radius: 20px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    padding-block: 3rem;
     justify-content: space-between;
+    align-items: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    padding: 36px 80px 48px 80px;
+    margin-bottom: 48px;
+}
+
+.early .space_bird{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.early .bird{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.early .bird h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 72px; */
+}
+
+.early .offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.early .offer h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    font-family: 'DM Sans';
+    /* line-height: 72px; */
+}
+
+.informasi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green);
+    padding: 36px 104px 48px 104px;
+    border-radius: 20px;
 }
