@@ -112,6 +112,9 @@ nav ul li a {
 
 .nav-item a:hover{
     color: var(--orange);
+    transition: 0.2s;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 .login-menu ul li a:hover{
