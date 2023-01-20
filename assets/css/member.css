@@ -129,4 +129,5 @@ input{
     background: var(--white);
     color: black;
     border-style: solid;
+    border-color: #D66F4C;
 }
