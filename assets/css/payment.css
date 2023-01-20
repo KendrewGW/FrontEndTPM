@@ -23,6 +23,10 @@
     font-family: 'Poppins';
 }
 
+header{
+    margin-bottom: 50px;
+}
+
 a {
     color: var(--black);
     text-decoration: none;
@@ -201,6 +205,7 @@ nav ul li a {
     border-radius: 20px;
 }
 
+
 .informasi h2{
     font-size: 40px;
     font-weight: 700;
@@ -208,6 +213,17 @@ nav ul li a {
     letter-spacing: 0em;
     text-align: left;
     font-family: 'Poppins';
+}
+
+.bca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.bca img{
+    margin-right: 10px;
 }
 
 label[for="file"]{
@@ -220,6 +236,7 @@ label[for="file"]{
     padding: 15px;
 }
 
+
 .bukti{
     margin-bottom: 32px;
 }
@@ -230,4 +247,13 @@ p{
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
+}
+
+.johndoe{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
 }
