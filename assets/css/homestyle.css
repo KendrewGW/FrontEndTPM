@@ -686,3 +686,62 @@ nav ul li a{
     background-size: 100% 100%;
     color: var(--black);
 }
+
+#contact-section .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+
+#contact-section .container #form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--green);
+    padding: 38px 70px;
+    border-radius: 20px;
+}
+
+#contact-section .container h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86.7657px;
+    line-height: 113px;
+    color: var(--black);
+    margin-bottom: 11px;
+}
+
+.pad{
+    margin-bottom: 23px;
+}
+
+input{
+    width: 500px;
+    left: 0px;
+    top: 34.55%;
+    bottom: 2.73%;
+    background: #F5F5F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 20px 18px;
+}
+
+.login_button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.back{
+    padding: 20px 35px;
+    background: #D66F4C;
+    box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
+    border-radius: 8.79528px;
+    color: var(--white);
+    border-style: solid;
+    border-color: #D66F4C;
+}
