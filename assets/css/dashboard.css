@@ -129,22 +129,38 @@ nav ul li a {
     margin-left: 14px;
 }
 
-#table th {
+#table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: left;
+    padding: 40px;
+}
+
+table{
+    align-items: center;
+}
+
+#table th{
     border-bottom: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    padding-right: 50px;
 }
 
 #table tr{
-    text-align: center;
+    text-align: left;
 }
 
-ul li{
-    display: inline;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
+tbody tr{
+    margin-bottom: 33px;
+}
+
+label{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400px;
+    color: #5B5B5B;
 }
 
 .technical{
