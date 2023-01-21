@@ -605,6 +605,14 @@ nav ul li a{
     border-radius: 8.48705px;
 }
 
+.register__button,
+.button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.9741px
+}
+
 .button{
     background-image: linear-gradient(#D66F4C, #D66F4C);
     background-size: 0 100%;
@@ -614,20 +622,23 @@ nav ul li a{
 
 .button:hover {
     background-size: 100% 100%;
+    color: var(--white);
 }
 
 .register__button{
     background-color: var(--orange);
+    background-image: linear-gradient(white, white);
     padding: 14px;
-    background: #D66F4C;
     box-shadow: 0px 2.82902px 3.53627px rgba(0, 0, 0, 0.25);
     border-radius: 8.48705px;
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: .4s;
+    border: 2.12176px solid var(--black);
+    color: var(--white);
 }
 
 .register__button:hover{
     background-size: 100% 100%;
-    color: var(--white);
+    color: var(--black);
 }
