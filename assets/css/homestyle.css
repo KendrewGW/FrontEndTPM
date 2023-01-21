@@ -562,7 +562,8 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 105px;
 }
 
 /* ===============Why-section=============== */
@@ -751,6 +752,10 @@ input{
     color: var(--white);
     border-style: solid;
     border-color: #D66F4C;
+    -webkit-border-radius: 8.79528px;
+    -moz-border-radius: 8.79528px;
+    -ms-border-radius: 8.79528px;
+    -o-border-radius: 8.79528px;
 }
 
 footer .container{
@@ -778,4 +783,158 @@ footer .content3 a{
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+/* ================ FAQ ================ */
+.faq-accordion h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.1889px;
+}
+
+.faq-accordion p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.skills__arrow{
+    font-size: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: hsl(240, 5%, 91%);
+    padding: 8px 0 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.content-cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FAQ card */
+/*================================================*/
+
+.faq-card {
+
+    background-color: var(--green);
+    border-radius: 20px;
+
+    max-width: 100vh;
+    margin-top: 90px;
+
+    box-shadow: 0px 60px 50px -25px rgba(0, 0, 0, 0.35);
+}
+
+/* FAQ card: imagenes */
+/*================================================*/
+
+
+.faq-ilustrations {
+    position: relative;
+}
+
+.faq-ilustrations .mobile.ilust {
+    position: absolute;
+    top: -110px;
+    left: -30px;
+    right: 0;
+}
+
+.mobile {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* FAQ card: main */
+/*================================================*/
+
+.faq-content {
+    padding: 9px 25px 3rem;
+}
+
+.faq-content h1 {
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-dark-color);
+}
+
+.faq-accordion {
+    padding: 8px 0;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+
+/* FAQ card: main title */
+/*================================================*/
+
+/* checkbox tgg-title*/
+input.tgg-title {
+    appearance: unset;
+    all: unset;
+}
+
+.faq-accordion-title label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-accordion-title h2 {
+    font-size: 12px
+        /*var(--font-size)*/
+    ;
+    font-weight: 400;
+    color: var(--neutral-dark-color);
+}
+
+.faq-accordion-title span {
+    margin-left: auto;
+    transition: transform .4s ease-in-out;
+}
+
+
+/* FAQ card: main content */
+/*================================================*/
+
+.faq-accordion-content {
+    color: var(--neutral-soft-color);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .4s ease-in-out;
+}
+
+
+/* Effects */
+/*================================================*/
+
+/* main title, accordion title effects */
+
+.faq-accordion-title:hover h2 {
+    color: var(--primary-soft-color)
+}
+
+/* onclick "" */
+.faq-accordion .tgg-title:checked+div>label>h2 {
+    font-weight: 700;
+}
+
+.faq-accordion .tgg-title:checked+div>label>span {
+    will-change: transform;
+    transform: rotate(180deg);
+}
+
+/* main content, acordion text effect */
+
+.faq-accordion .tgg-title:checked~.faq-accordion-content {
+    will-change: max-height;
+    max-height: 80px;
 }
