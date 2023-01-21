@@ -36,6 +36,7 @@ a {
     text-decoration: none;
 }
 
+
 nav {
     width: 100%;
     height: 100px;
@@ -113,8 +114,9 @@ nav ul li a {
     font-size: 16px;
 }
 
-.nav-item a:hover{
+a:hover{
     color: var(--orange);
+    transition: 0.2s;
 }
 
 .login-menu ul li a:hover{
@@ -144,13 +146,13 @@ nav ul li a {
     text-align: left;
     flex-direction: row;
     padding: 40px;
+    justify-content: center;
 }
 
-.container .add-member{
-    align-items: center;
+.add-member .container{
+    align-self: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 #table thead th{
@@ -161,6 +163,10 @@ nav ul li a {
     font-size: 15px;
 }
 
+#table td{
+    padding-right: 80px;
+}
+
 #table tr{
     text-align: left;
 }
@@ -169,17 +175,82 @@ tbody tr{
     margin-bottom: 33px;
 }
 
+#table a:hover{
+    color: var(--black);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.flazz .a{
+    padding-left: 20px;
+}
+
 label{
     font-family: 'Poppins';
     font-size: 13px;
     font-weight: 400px;
     color: #5B5B5B;
 }
+.rect {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(to bottom, #D4DDD4, #D66F4C);
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    transform: rotate(-90deg);
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.rect p {
+    transform: rotate(90deg);
+}
+
+.circle {
+    display: block;
+    width: 100px;
+    height: 50px;
+    top: -50px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.circle:after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: -100px;
+    left: -40px;
+    border: 40px solid #D4DDD4;
+}
+
+.bayar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: var(--white);
+    background-color: var(--orange);
+    padding: 15px;
+    box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
+    border-radius: 8.79528px;
+}
 
 .technical{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: inline;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    border-color: var(--orange);
 }
 
