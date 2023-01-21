@@ -210,16 +210,14 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 44px;
+    margin: 0 64px 0;
     width: 83.22px;
     height: 83.22px;
 }
 
 .thropy1__icon {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    margin-left: 50px;
+    margin: 0 64px 0;
     width: 83.22px;
     height: 83.22px;
 }
@@ -253,6 +251,7 @@ nav ul li a{
     font-weight: 700;
     font-size: 43.8501px;
     text-align: center;
+    padding: 6px;
 }
 
 
@@ -285,21 +284,19 @@ nav ul li a{
     font-weight: 700;
     font-size: 43.8501px;
     text-align: center;
+    padding: 6px;
 }
 
 
 /*====== Juara 3 ====== */
-.container__juara3{
+.container__juara3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 45px 240px;
-    
+
     width: 301.96px;
     height: 489.39px;
-    left: 375px;
-    top: 173px;
-
     color: var(--white);
 
     margin-top: 126px;
@@ -307,23 +304,167 @@ nav ul li a{
     border-radius: 20px;
 }
 
-.container__juara3  h3{
+.container__juara3 h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 43.8501px;
     text-align: center;
+    padding: 6px;
 }
 
-.container__juara2,
-.container__juara1, 
-.container__juara3 p{
+.class__juara p{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 31.3215px;
     line-height: 41px;
+    text-align: center;
 }
+
+
+/* Benefit Juara 2 */
+.container__benefit2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.merch2,
+.sertif2{
+    color: white;
+    margin-top: 420px;
+}
+
+.merch2{
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.merch__img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 43px 0;
+    align-items: center;
+}
+
+.sertif2{
+    padding-left: 15px;
+    padding-left: 28px;
+    
+}
+
+.sertif__img{
+    margin: 10px 27px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+/* Benefit Juara 1 */
+.container__benefit1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.merch1,
+.sertif2 {
+    color: var(--black);
+    margin-top: 317px;
+}
+
+.merch1 {
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.merch__img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 43px 0;
+    align-items: center;
+}
+
+.sertif2 {
+    padding-left: 15px;
+    padding-left: 28px;
+
+}
+
+.sertif__img {
+    margin: 10px 27px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+/* Benefit Juara 3 */
+.container__benefit3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.merch3,
+.sertif2{
+    color: white;
+    margin-top: 318px;
+}
+
+.merch3{
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.merch__img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 43px 0;
+    align-items: center;
+}
+
+.sertif2{
+    padding-left: 15px;
+    padding-left: 28px;
+    
+}
+
+.sertif__img{
+    margin: 10px 27px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
 
 /* ================ Mentor & Jury ================ */
 .mentor__list{
