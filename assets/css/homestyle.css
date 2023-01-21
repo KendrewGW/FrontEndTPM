@@ -48,7 +48,7 @@ html{
 }
 
 .container {
-    padding: 0 6.25rem;
+    padding: 3rem 6.25rem;
 }
 
 /* ================Header================ */
@@ -559,6 +559,50 @@ nav ul li a{
     justify-content: space-between;
 }
 
+/* ===============Why-section=============== */
+#why-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+
+#why-section .container h2{
+    font-family: 'Poppins';
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#why-section .container .why-content h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.0431px;
+}
+
+#why-section .benefit{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#why-section .why-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green);
+    padding: 22px 16px;
+    margin-left: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#why-section .why-content img{
+    width: 100px;
+    margin-bottom: 20px;
+}
 
 /* ================ About ================ */
 .about__content  b{
