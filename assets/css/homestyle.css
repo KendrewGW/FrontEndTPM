@@ -194,12 +194,135 @@ nav ul li a{
 
 /* ================ Champion Prizes ================ */
 
+.container__champion > h2{
+    margin-bottom: 48px;
+}
 
-.container__juara{
+.container__champion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thropy__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+    width: 83.22px;
+    height: 83.22px;
+}
+
+.thropy1__icon {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 50px;
+    width: 83.22px;
+    height: 83.22px;
+}
+
+.class__juara{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+
+/*====== Juara 2 ====== */
+.container__juara2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 45px 240px;
+    
+    width: 301.96px;
+    height: 489.39px;
+    color: var(--white);
 
+    margin-top: 70px;
+    background: var(--black);
+    border-radius: 20px;
+}
+
+.container__juara2  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.8501px;
+    text-align: center;
+}
+
+
+/*====== Juara 1 ====== */
+.juara-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__juara1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 45px 240px;
+    
+    width: 301.96px;
+    height: 489.39px;
+    left: 375px;
+    top: 173px;
+
+    background: #D4DDD4;
+    border-radius: 20px;
+}
+
+.container__juara1  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.8501px;
+    text-align: center;
+}
+
+
+/*====== Juara 3 ====== */
+.container__juara3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 45px 240px;
+    
+    width: 301.96px;
+    height: 489.39px;
+    left: 375px;
+    top: 173px;
+
+    color: var(--white);
+
+    margin-top: 126px;
+    background: var(--black);
+    border-radius: 20px;
+}
+
+.container__juara3  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.8501px;
+    text-align: center;
+}
+
+.container__juara2,
+.container__juara1, 
+.container__juara3 p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.3215px;
+    line-height: 41px;
 }
 
 /* ================ Mentor & Jury ================ */
@@ -223,10 +346,7 @@ nav ul li a{
 }
 
 .mentors{
-    background-image: linear-gradient(to right,
-            var(--orange),
-            var(--orange) 50%,
-            #000 50%);
+    background-image: linear-gradient(to right,var(--orange),var(--orange) 50%,#000 50%);
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
@@ -259,10 +379,7 @@ nav ul li a{
 }
 
 .juries{
-    background-image: linear-gradient(to right,
-            var(--orange),
-            var(--orange) 50%,
-            #000 50%);
+    background-image: linear-gradient(to right,var(--orange),var(--orange) 50%,#000 50%);
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
