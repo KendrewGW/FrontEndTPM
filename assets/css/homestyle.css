@@ -559,3 +559,75 @@ nav ul li a{
     justify-content: space-between;
 }
 
+
+/* ================ About ================ */
+.about__content  b{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.4577px;
+    text-align: center;
+}
+
+.about__content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.4577px;
+    line-height: 40px;
+    text-align: center;
+
+    margin-bottom: 24px;
+}
+
+.about__button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 42px;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button{
+    /* display: inline-block;
+    background-color: var(--white);
+    border: #000000;
+    color: var(--orange);
+    padding: 1rem;
+    border-radius: .5rem; */
+    padding: 14px;
+    border: 2.12176px solid #D66F4C;
+    filter: drop-shadow(0px 2.82902px 3.53627px rgba(0, 0, 0, 0.25));
+    border-radius: 8.48705px;
+}
+
+.button{
+    background-image: linear-gradient(#D66F4C, #D66F4C);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.button:hover {
+    background-size: 100% 100%;
+}
+
+.register__button{
+    background-color: var(--orange);
+    padding: 14px;
+    background: #D66F4C;
+    box-shadow: 0px 2.82902px 3.53627px rgba(0, 0, 0, 0.25);
+    border-radius: 8.48705px;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.register__button:hover{
+    background-size: 100% 100%;
+    color: var(--white);
+}
