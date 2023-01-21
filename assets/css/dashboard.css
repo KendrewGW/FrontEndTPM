@@ -23,6 +23,10 @@
     font-family: 'Poppins';
 }
 
+.container{
+    padding: 0 6.25rem;
+}
+
 header{
     margin-bottom: 50px;
 }
@@ -89,9 +93,12 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
     padding: 0px 0px 0px 14px;
     /* gap: 14px; */
+}
+
+.login-menu a{
+    margin-left: 41px;
 }
 
 .nav__list{
@@ -112,6 +119,7 @@ nav ul li a {
 
 .login-menu ul li a:hover{
     color: var(--orange);
+    transition: 0.2s;
 }
 
 .register{
@@ -131,21 +139,26 @@ nav ul li a {
 
 #table{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center; 
     text-align: left;
+    flex-direction: row;
     padding: 40px;
 }
 
-table{
+.container .add-member{
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#table th{
+#table thead th{
     border-bottom: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    padding-right: 50px;
+    padding-right: 60px;
+    font-size: 15px;
 }
 
 #table tr{
