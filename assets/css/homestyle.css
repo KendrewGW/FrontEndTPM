@@ -819,9 +819,6 @@ footer .content3 a{
     align-items: center;
 }
 
-/* FAQ card */
-/*================================================*/
-
 .faq-card {
 
     background-color: var(--green);
@@ -832,10 +829,6 @@ footer .content3 a{
 
     box-shadow: 0px 60px 50px -25px rgba(0, 0, 0, 0.35);
 }
-
-/* FAQ card: imagenes */
-/*================================================*/
-
 
 .faq-ilustrations {
     position: relative;
@@ -853,10 +846,6 @@ footer .content3 a{
     margin: 0 auto;
 }
 
-
-/* FAQ card: main */
-/*================================================*/
-
 .faq-content {
     padding: 9px 25px 3rem;
 }
@@ -872,11 +861,6 @@ footer .content3 a{
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-
-/* FAQ card: main title */
-/*================================================*/
-
-/* checkbox tgg-title*/
 input.tgg-title {
     appearance: unset;
     all: unset;
@@ -901,10 +885,6 @@ input.tgg-title {
     transition: transform .4s ease-in-out;
 }
 
-
-/* FAQ card: main content */
-/*================================================*/
-
 .faq-accordion-content {
     color: var(--neutral-soft-color);
     overflow: hidden;
@@ -912,17 +892,10 @@ input.tgg-title {
     transition: max-height .4s ease-in-out;
 }
 
-
-/* Effects */
-/*================================================*/
-
-/* main title, accordion title effects */
-
 .faq-accordion-title:hover h2 {
     color: var(--primary-soft-color)
 }
 
-/* onclick "" */
 .faq-accordion .tgg-title:checked+div>label>h2 {
     font-weight: 700;
 }
@@ -931,8 +904,6 @@ input.tgg-title {
     will-change: transform;
     transform: rotate(180deg);
 }
-
-/* main content, acordion text effect */
 
 .faq-accordion .tgg-title:checked~.faq-accordion-content {
     will-change: max-height;
