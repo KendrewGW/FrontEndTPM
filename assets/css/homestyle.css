@@ -785,6 +785,10 @@ footer .content3 a{
     text-decoration: underline;
 }
 
+.content3_logo{
+    margin-bottom: 15px;
+}
+
 /* ================ FAQ ================ */
 .faq-accordion h2{
     font-family: 'DM Sans';
