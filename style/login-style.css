@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 
 /* POPPINS FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 /* DM SANS FONT */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
@@ -12,7 +12,7 @@
 :root{
     --green: #D4DDD4;
     --white: #FFFFFF;
-    --orange: #D66F4C;
+    --orange:#D66F4C;
     --black: #000000;
 }
 
@@ -20,7 +20,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
 }
 
 .container{
@@ -39,11 +38,10 @@
 }
 
 #form .container h1{
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 86.7657px;
-    line-height: 113px;
     color: var(--black);
     margin-bottom: 11px;
 }
@@ -67,20 +65,72 @@ input{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
     padding: 20px 18px;
+    border: none;
 }
 
-.login_button{
+.login{
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.back{
-    padding: 20px 35px;
+.login__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+
+    width: 445px;
+    height: 52.32px;
+
+    color: var(--white);
+
     background: #D66F4C;
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
-    color: var(--white);
-    border-style: solid;
-    border-color: #D66F4C;
+
+    margin-bottom: 22px;
+}
+
+.login__button:hover{
+  transform: scale(1.03);
+  color: var(--black);
+}
+
+.no_acc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.regis__disini{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: var(--orange);
+}
+
+.nama__team,
+.password{
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 24px 10px 0px;
 }
