@@ -22,11 +22,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #EAF0F9;
+}
+
 .container{
     padding: 5rem 6.25rem;
     height: 100%;
     width: 100%;
-    background-color: var(--white);
 }
 
 #form .container{
