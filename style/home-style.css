@@ -31,6 +31,9 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #EAF0F9;
+}
 
 /* ===== Layout ===== */
 .section{
@@ -41,16 +44,12 @@ html{
 
 .section__title{
     font-size: var(--h1-font-size);
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     text-align: center;
     padding: 39px 0 20px 0;
-}
-
-#home-section .section__title{
-    margin-top: 100px;
 }
 
 .container {
@@ -73,7 +72,6 @@ nav{
     position: relative;
     background: #D4DDD4;
     justify-content: space-between;
-    position: fixed;
     margin-bottom: 20px;
 }
 
@@ -88,7 +86,7 @@ nav ul li a{
 }
 
 .nav_logo{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     color: #000000;
     font-weight: 700;
@@ -119,11 +117,10 @@ nav ul li a{
 
 .login-menu {
     display: flex;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px 0px 0px 14px;
@@ -149,6 +146,9 @@ nav ul li a{
     cursor: pointer;
 }
 
+.register:hover{
+    color: var(--black);
+}
 /* ================ Homepage ================ */
 .container__home {
     display: flex;

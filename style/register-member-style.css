@@ -55,7 +55,7 @@
 }
 
 #form .container form .informasi h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 35.7267px;
@@ -64,11 +64,20 @@
 }
 
 .pad{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 23px;
 }
 
+.form__informasi label{
+    margin-bottom: 7px;
+}
+
 label{
-    padding-bottom: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 input{
@@ -87,13 +96,15 @@ input{
 }
 
 span{
-    font-size: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 .btn label[for="file"]{
     background-color: var(--orange);
     color: white;
-    background: #D66F4C;
     box-shadow: 0px 2.93176px 3.6647px rgba(0, 0, 0, 0.25);
     border-radius: 8.79528px;
     cursor: pointer;
